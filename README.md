@@ -1,2 +1,4 @@
-# threejs-requirejs-seed
-simple starting seed for threejs projects using requirejs-text to load shaders
+Three.js + RequireJS Seed
+======================
+
+Example scene using Three.js as WebGL framework and RequireJS-Text to load shaders.
