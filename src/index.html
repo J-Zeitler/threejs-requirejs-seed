@@ -2,11 +2,17 @@
 <html>
 <head>
     <title>THREE.js + RequireJS</title>
-    <script src="libs/three.min.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <script data-main="main" src="libs/require.min.js"></script>
-    <script src="libs/stats.min.js"></script>
+    <script src="libs/vendor/three.min.js"></script>
+
+    <!-- Utils -->
+    <script src="libs/vendor/threex.rendererstats.js"></script>
+    <script src="libs/vendor/stats.min.js"></script>
+    <script src="libs/vendor/system.min.js"></script>
+
+    <!-- Entry Point -->
+    <script data-main="main" src="libs/vendor/require.min.js"></script>
 </body>
 </html>
